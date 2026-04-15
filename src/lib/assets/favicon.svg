@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e4d8c"/>
+      <stop offset="100%" style="stop-color:#2d6ab8"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield background -->
+  <path d="M64 8 L116 28 L116 64 Q116 100 64 120 Q12 100 12 64 L12 28 Z" fill="url(#g1)" stroke="#c9a84c" stroke-width="3"/>
+  <!-- Balance / scales icon -->
+  <g fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center pillar -->
+    <line x1="64" y1="36" x2="64" y2="90"/>
+    <!-- Base -->
+    <line x1="48" y1="90" x2="80" y2="90"/>
+    <!-- Top beam -->
+    <line x1="36" y1="48" x2="92" y2="48"/>
+    <!-- Top circle -->
+    <circle cx="64" cy="36" r="5" fill="#c9a84c"/>
+    <!-- Left chain -->
+    <line x1="36" y1="48" x2="36" y2="64"/>
+    <!-- Right chain -->
+    <line x1="92" y1="48" x2="92" y2="64"/>
+    <!-- Left pan -->
+    <path d="M24 64 Q24 76 36 76 Q48 76 48 64" fill="none"/>
+    <!-- Right pan -->
+    <path d="M80 64 Q80 76 92 76 Q104 76 104 64" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,279 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin 'daisyui';
+
+@plugin "daisyui/theme" {
+	name: "previdencia_dark";
+	default: true;
+	prefersdark: true;
+	color-scheme: dark;
+
+	/* Primary: deep institutional blue */
+	--color-primary: oklch(45% 0.14 250);
+	--color-primary-content: oklch(100% 0 0);
+
+	/* Secondary: justice gold */
+	--color-secondary: oklch(72% 0.15 80);
+	--color-secondary-content: oklch(15% 0.02 80);
+
+	/* Accent: teal/institutional green */
+	--color-accent: oklch(62% 0.14 170);
+	--color-accent-content: oklch(100% 0 0);
+
+	/* Dark backgrounds with blue undertone */
+	--color-base-100: oklch(17% 0.02 250);
+	--color-base-200: oklch(14% 0.02 250);
+	--color-base-300: oklch(21% 0.02 250);
+	--color-base-content: oklch(88% 0.01 250);
+
+	/* Neutral */
+	--color-neutral: oklch(26% 0.02 250);
+	--color-neutral-content: oklch(85% 0.01 250);
+
+	/* Status colors */
+	--color-info: oklch(65% 0.16 240);
+	--color-info-content: oklch(100% 0 0);
+	--color-success: oklch(68% 0.17 155);
+	--color-success-content: oklch(100% 0 0);
+	--color-warning: oklch(80% 0.18 80);
+	--color-warning-content: oklch(15% 0.05 80);
+	--color-error: oklch(62% 0.24 25);
+	--color-error-content: oklch(100% 0 0);
+
+	--radius-selector: 0.5rem;
+	--radius-field: 0.5rem;
+	--radius-box: 0.75rem;
+	--size-selector: 0.25rem;
+	--size-field: 0.25rem;
+	--border: 1px;
+	--depth: 1;
+	--noise: 0;
+}
+
+@theme {
+	--color-prev: #1e4d8c;
+	--color-prev-light: #2d6ab8;
+	--color-prev-dark: #153a6b;
+	--color-gold: #c9a84c;
+	--color-gold-light: #ddc06a;
+	--color-gold-dark: #a08838;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: oklch(14% 0.02 250);
+}
+::-webkit-scrollbar-thumb {
+	background: oklch(26% 0.02 250);
+	border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-prev);
+}
+
+/* Prose overrides for dark theme */
+.prose {
+	--tw-prose-headings: oklch(92% 0.01 250);
+	--tw-prose-links: var(--color-prev-light);
+	--tw-prose-code: var(--color-gold-light);
+}
+
+/* ── Headings ────────────────────────────────── */
+
+.prose :where(h1) {
+	font-weight: 800;
+	letter-spacing: -0.025em;
+	border-bottom: 3px solid var(--color-prev);
+	padding-bottom: 0.4em;
+	margin-bottom: 1em;
+}
+
+.prose :where(h2) {
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	padding-left: 0.75em;
+	border-left: 4px solid var(--color-gold);
+	margin-top: 2em;
+}
+
+.prose :where(h3) {
+	font-weight: 600;
+	color: var(--color-gold-light);
+	margin-top: 1.6em;
+}
+
+.prose :where(h4) {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	letter-spacing: 0.05em;
+	opacity: 0.8;
+	margin-top: 1.4em;
+}
+
+/* ── Links ───────────────────────────────────── */
+
+.prose a {
+	text-decoration-color: var(--color-prev);
+	text-underline-offset: 3px;
+	transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+	color: var(--color-prev-light);
+}
+
+/* ── Code ────────────────────────────────────── */
+
+.prose :where(code):not(:where(pre *)) {
+	background: oklch(22% 0.02 250);
+	padding: 0.15em 0.4em;
+	border-radius: 0.3em;
+	font-size: 0.9em;
+}
+
+.prose pre {
+	background: oklch(12% 0.02 250) !important;
+	border: 1px solid oklch(24% 0.02 250);
+}
+
+/* ── PrismJS Syntax Highlighting (dark theme) ── */
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: oklch(55% 0.01 250);
+	font-style: italic;
+}
+
+.token.punctuation {
+	color: oklch(70% 0.01 250);
+}
+
+.token.namespace {
+	opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: oklch(72% 0.19 55);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: oklch(75% 0.18 155);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: oklch(78% 0.15 80);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: oklch(72% 0.17 290);
+}
+
+.token.function,
+.token.class-name {
+	color: oklch(68% 0.16 240);
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: oklch(78% 0.15 80);
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+/* Language label on code blocks */
+pre[class*='language-'] {
+	position: relative;
+}
+
+pre[class*='language-']::before {
+	content: attr(class);
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.15em 0.5em;
+	font-size: 0.7em;
+	font-family: inherit;
+	text-transform: uppercase;
+	color: oklch(55% 0.01 250);
+	background: oklch(17% 0.02 250);
+	border-radius: 0 0 0 0.3em;
+	letter-spacing: 0.05em;
+}
+
+pre.language-javascript::before { content: 'js'; }
+pre.language-typescript::before { content: 'ts'; }
+pre.language-bash::before { content: 'bash'; }
+pre.language-json::before { content: 'json'; }
+pre.language-text::before { content: ''; }
+
+/* ── Blockquotes ─────────────────────────────── */
+
+.prose :where(blockquote) {
+	border-left-color: var(--color-gold);
+	background: none;
+	padding: 0 0 0 0.75em;
+	margin: 15px 0;
+	border-radius: 0;
+	font-size: 0.95em;
+	color: oklch(88% 0.01 250);
+}
+
+/* ── Horizontal rules ────────────────────────── */
+
+.prose :where(hr) {
+	border-color: oklch(24% 0.02 250);
+}
+
+/* ── Strong / bold ───────────────────────────── */
+
+.prose :where(strong) {
+	color: oklch(95% 0.01 250);
+}
+
+/* ── Tables ──────────────────────────────────── */
+
+.prose :where(th) {
+	color: var(--color-gold-light);
+	border-bottom-color: var(--color-gold);
+}
+
+.prose :where(td) {
+	border-bottom-color: oklch(24% 0.02 250);
+}
+
+/* ── Lists ───────────────────────────────────── */
+
+.prose :where(li)::marker {
+	color: var(--color-prev-light);
+}
