@@ -9,6 +9,8 @@ import VideoLink from '$lib/components/VideoLink.svelte';
 
 # 2.3 — Segurado especial
 
+# NAO TERMINADO AINDA - ESPERAR 
+
 > ⚠️ **Aula avançada.** O segurado especial é o tema com maior volume de teses, súmulas e IRDRs em todo o previdenciário. Domine esta aula antes de aceitar uma causa rural — as armadilhas são muitas e o INSS indefere em série.
 
 O segurado especial é o **trabalhador rural em regime de economia familiar** — agricultor, pescador artesanal, seringueiro, extrativista, indígena — que produz para subsistência, com ajuda eventual de terceiros e **sem patrão**. É a categoria onde a prova é mais difícil, o benefício é mais sensível socialmente e a lei é mais recortada por exceções.
@@ -24,6 +26,8 @@ c) cônjuge ou companheiro, bem como filho maior de 16 anos, que comprovadamente
 
 </Legislacao>
 
+Importante: _Não continue o estudo sem antes ler todo o capitulo sobre o Trabalhador Rural._
+
 ## Os quatro elementos do segurado especial
 
 Para configurar a condição de segurado especial, **todos** os quatro elementos devem estar presentes:
@@ -32,6 +36,15 @@ Para configurar a condição de segurado especial, **todos** os quatro elementos
 2. **Regime de economia familiar** (não é empresa; a produção sustenta a família)
 3. **Área de até 4 módulos fiscais** (o módulo varia por município; confira no Incra)
 4. **Ajuda de terceiros apenas eventual** (contratar empregado fixo descaracteriza)
+
+## Tamanho do Imóvel
+https://www.embrapa.br/codigo-florestal/area-de-reserva-legal-arl/modulo-fiscal
+
+- Área não utilizada 
+- Critérios criados pela Jurisprudência 
+- Urbano: Na pratica é melhor não falar
+- CNIS: Análise fundamental 
+- Testemunhas: 
 
 <Atencao title="A armadilha dos 4 módulos fiscais">
 
