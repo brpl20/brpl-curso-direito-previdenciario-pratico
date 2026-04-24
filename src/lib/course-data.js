@@ -31,6 +31,7 @@ export const modules = [
 		title: 'Segurados e Dependentes',
 		slug: 'modulo-02-segurados-dependentes',
 		lessons: [
+			{ order: 0, title: 'Visão geral: segurados e dependentes', slug: '2.0-visao-geral' },
 			{ order: 1, title: 'Segurado empregado e equiparado', slug: '2.1-segurado-empregado' },
 			{
 				order: 2,
