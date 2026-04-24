@@ -5,6 +5,8 @@ import Legislacao from '$lib/components/Legislacao.svelte';
 import Jurisprudencia from '$lib/components/Jurisprudencia.svelte';
 import Pergunta from '$lib/components/Pergunta.svelte';
 import VideoLink from '$lib/components/VideoLink.svelte';
+import YoutubeEmbed from '$lib/components/YoutubeEmbed.svelte';
+import DrawerLink from '$lib/components/DrawerLink.svelte';
 </script>
 
 # 2.2 — Contribuinte individual e MEI
@@ -21,14 +23,31 @@ O contribuinte individual (CI) é o segurado que trabalha **por conta própria**
 
 ## Quem é CI na prática do escritório
 
-- **Autônomo** (eletricista, diarista não doméstica, corretor, representante comercial)
-- **Profissional liberal** sem vínculo (advogado sem CLT, dentista de consultório próprio)
-- **Sócio e titular de empresa** que recebe pró-labore
-- **Diretor não empregado** (apenas estatutário, sem subordinação)
-- **Pastor, padre, ministro religioso**
-- **Motorista de aplicativo** (Uber, 99, iFood — tema 1 do STJ ainda em debate, mas o INSS os enquadra como CI)
-- **Produtor rural pessoa física** em área superior a 4 módulos fiscais
-- **Trabalhador de cooperativa** de trabalho
+| Categoria | Detalhe | Base legal |
+|-----------|---------|------------|
+| **Autônomo em geral** | Eletricista, diarista não doméstica, corretor, representante comercial | Art. 11, V, "h" |
+| **Prestador de serviço eventual** | A uma ou mais empresas, sem vínculo | Art. 11, V, "g" |
+| **Profissional liberal sem vínculo** | Advogado sem CLT, dentista de consultório próprio | Art. 11, V, "h" |
+| **Titular de firma individual** urbana ou rural | Empresário individual (antigo firma individual) | Art. 11, V, "f" |
+| **Sócio gerente, sócio cotista, sócio de indústria** | Desde que receba pró-labore pelo trabalho na empresa | Art. 11, V, "f" |
+| **Diretor não empregado** e **membro de conselho de administração** de S.A. | Cargo estatutário, sem subordinação | Art. 11, V, "f" |
+| **Síndico ou administrador de condomínio** eleito | Desde que receba remuneração (inclui isenção da taxa condominial) | Art. 11, V, "f" |
+| **Associado eleito para cargo de direção** | Cooperativa, associação ou entidade de qualquer natureza | Art. 11, V, "f" |
+| **Ministro de confissão religiosa** | E membro de instituto de vida consagrada, congregação ou ordem religiosa | Art. 11, V, "c" |
+| **Motorista de aplicativo** | Uber, 99, iFood — tema 1 do STJ ainda em debate, mas o INSS enquadra como CI | Art. 11, V, "h" (por analogia) |
+| **Produtor rural pessoa física** | Área superior a 4 módulos fiscais, ou até 4 módulos com empregados/prepostos | Art. 11, V, "a" |
+| **Garimpeiro** | Extração mineral, permanente ou temporário, com ou sem empregados | Art. 11, V, "b" |
+| **Brasileiro civil que trabalha no exterior** | Para organismo oficial internacional do qual o Brasil é membro efetivo, salvo RPPS | Art. 11, V, "e" |
+| **Trabalhador de cooperativa de trabalho** | Cooperado que presta serviço via cooperativa | Art. 11, V, "g" |
+
+<Dica title="Síndico de condomínio — só é CI se houver remuneração">
+
+O síndico eleito que **não recebe remuneração** (inclusive isenção da cota condominial, que a jurisprudência equipara a remuneração) **não é segurado obrigatório** — pode filiar-se como facultativo. 
+<br>
+Já o síndico que recebe pro-labore, salário ou isenção da taxa condominial **é CI obrigatório** e o condomínio é responsável pelo desconto e recolhimento (alíquota de 11% sobre a remuneração, art. 216, §26, do Decreto 3.048/99).
+<br>
+Uma pergunta importante na conversa com o cliente, você já atuou como síndico? Você pode salvar uma aposentadoria! Confira a <DrawerLink ref="STJ, REsp 411.832/RS">jurisprudência no drawer ao lado</DrawerLink>.
+</Dica>
 
 ## Filiação e inscrição
 
@@ -59,17 +78,25 @@ Na prática: não se pagam contribuições retroativas como CI em GPS comum, mas
 | **MEI** | Salário mínimo | **5%** sobre SM (INSS) | Lei Complementar 123/2006 |
 | **Produtor rural PF contribuinte individual** | Receita bruta ou SM | Regras específicas | Não confundir com segurado especial |
 
-<Dica title="O truque do complemento (art. 21, §3º, Lei 8.212)">
+<Dica title="Planejamento — 20% é o caminho seguro">
 
-O CI que recolheu na alíquota reduzida (5% ou 11%) e quer aproveitar esse tempo para aposentadoria **por tempo de contribuição** pode complementar até 20% com **juros e correção**. Esse complemento tem que ser feito antes da DER — se postergar, perde o tempo. É rotina de escritório bem conduzido.
+<p style="text-align: justify;">Quando falamos em "Não vale para aposentadoria por tempo de contribuição" leia-se "e regras de transição" como pedágio 50% e 100%. Então para um planejamento previdenciário adequado é preciso contribuir na base de 20%.</p>
+
+</Dica>
+
+### O truque do complemento
+
+O CI que recolheu na alíquota reduzida (5% ou 11%) e quer aproveitar esse tempo para aposentadoria por tempo de contribuição pode complementar até 20% com juros e correção. Esse complemento tem que ser feito antes da DER — se postergar, perde o tempo. É rotina de escritório bem conduzido.
 
 Tutorial operacional do Bruno mostrando como complementar pelo Meu INSS, com os códigos de GPS e o passo a passo:
 
-<ul class="yt-videos">
-  <VideoLink slug="YT-2021-10-28-Como_complementar_as_contribuicoes_previdenciarias_do_MEI_e_baixa_renda_para_Aposentadoria" title="Como complementar contribuições previdenciárias do MEI e baixa renda" descricao="tutorial operacional de complemento para 20% pelo Meu INSS" />
-</ul>
+<YoutubeEmbed slug="YT-2021-10-28-Como_complementar_as_contribuicoes_previdenciarias_do_MEI_e_baixa_renda_para_Aposentadoria" title="Como complementar contribuições previdenciárias do MEI e baixa renda — tutorial operacional de complemento para 20% pelo Meu INSS" />
 
-</Dica>
+<Atencao title="Complementação ≠ indenização — confusão recorrente na Justiça">
+
+Existe uma confusão na Justiça atualmente que mistura a **complementação** (5% ou 11% para 20%) com o assunto da **indenização** (Tema do STJ). São institutos distintos, com fundamentos e efeitos próprios. O tema é polêmico e será trabalhado na aula correspondente.
+
+</Atencao>
 
 ## MEI — o microempreendedor individual
 
@@ -109,60 +136,9 @@ O CI tem direito apenas ao **auxílio por incapacidade temporária** (ex-auxíli
 
 Por muito tempo o INSS indeferiu aposentadoria especial para CI com base no mesmo art. 18 da Lei 8.213/91. A Justiça, porém, passou a reconhecer o direito **desde que comprovada a exposição efetiva e habitual a agentes nocivos**, aplicando diretamente a CF/88 e a Lei 8.213 (arts. 57-58). Os casos práticos mais consolidados envolvem categorias como **dono de posto de combustíveis** (exposição a benzeno e hidrocarbonetos), **técnico em prótese dentária** (exposição a agentes químicos), **médicos e dentistas autônomos** (agentes biológicos) e similares.
 
-<ul class="yt-videos">
-  <VideoLink slug="YT-2023-06-15-Aposentadoria_Especial_-_Para_Dono_de_Posto_de_Combustiveis" title="Aposentadoria especial para dono de posto de combustíveis" descricao="empresário/CI conquistando especial na Justiça — caso paradigmático" />
-  <VideoLink slug="YT-2025-01-14-Aposentadoria_Especial_do_Tecnico_de_Protese_Dentaria" title="Aposentadoria especial do técnico de prótese dentária" descricao="profissional autônomo (CI) com exposição comprovada a agentes químicos" />
-</ul>
+<YoutubeEmbed slug="YT-2023-06-15-Aposentadoria_Especial_-_Para_Dono_de_Posto_de_Combustiveis" title="Aposentadoria especial para dono de posto de combustíveis — empresário/CI conquistando especial na Justiça (caso paradigmático)" />
 
-## Recolhimento em atraso — o tema mais prático do escritório
-
-O CI e o MEI podem regularizar contribuições em atraso **desde que dentro dos prazos de decadência e respeitando a forma legal**.
-
-<Legislacao ref="Lei 8.212/91, art. 45-A">
-
-"O contribuinte individual que pretenda contar como tempo de contribuição [...] o período correspondente ao exercício de atividade remunerada alcançada pela decadência, deverá indenizar o INSS."
-
-</Legislacao>
-
-### Como se faz
-
-1. **Cálculo do período**: mês a mês, pela base de contribuição vigente em cada competência
-2. **Atualização**: juros + multa conforme a época
-3. **Guia**: GPS (código específico para indenização — 1473)
-4. **Pagamento**: em uma ou mais guias, com protocolo no INSS para cômputo
-
-<Dica title="A regra dos 5 anos">
-
-Tempo **dentro dos últimos 5 anos** pode ser recolhido em GPS comum com **apenas juros e multa de mora** (mais barato). Tempo **acima de 5 anos** exige indenização formal do art. 45-A, com cálculo mais pesado. Esse recorte cronológico faz **muita diferença** no custo final do planejamento.
-
-</Dica>
-
-<Dica title="Pagar 'em atraso' não é pagar em atraso — é indenizar">
-
-Tecnicamente, **não é possível recolher em atraso** contribuição de período já decaído. Porém, se você teve atividade remunerada em uma **categoria obrigatória** (CI típico — autônomo, sócio, profissional liberal), é possível **indenizar o INSS** pagando juros, multa e correção monetária correspondente ao período. Na prática, parece pagar "em atraso", mas a natureza jurídica é outra: **você assume que está em dívida com o INSS** referente a contribuições que já deveriam ter sido recolhidas.
-
-Antes de qualquer pagamento, **pare e calcule**: será que a indenização realmente fará diferença na aposentadoria? Esse é um raciocínio obrigatório do escritório — há casos em que pagar não adianta, porque o segurado já cumpriria carência e tempo por outras vias.
-
-</Dica>
-
-<Atencao title="Tema 1329 STF — suspensão que muda o cálculo">
-
-Existe controvérsia relevante, **ainda não pacificada**, sobre o uso de contribuições indenizadas ou complementares **após** a EC 103/2019 para enquadramento em regras de transição que exigem tempo mínimo até **12/11/2019** (data da reforma). A questão chegou ao STF como **Tema 1.329 de repercussão geral** (RE 1.508.285), com julgamento **suspenso em 19/12/2023** por pedido de vista do Ministro Alexandre de Moraes.
-
-Em resumo: se o cliente indenizou em 2024 período de atividade anterior a 2019, esse tempo **pode ou não** ser usado para regra de transição — depende do julgamento final. A TNU já vinha decidindo favoravelmente ao segurado, mas é preciso cautela antes de recomendar pagamento vultoso até o tema ser definido. **No contrato de honorários, advirta expressamente** do risco de o STF decidir contra essa possibilidade.
-
-</Atencao>
-
-### Quem pode indenizar — os casos práticos que chegam ao escritório
-
-A indenização do art. 45-A é especialmente relevante para categorias de CI tipicamente profissionais que passaram anos sem NIT ativo ou com contribuições inconsistentes: **advogados**, **contadores**, **dentistas**, **médicos**, **empresários/sócios** que tiraram distribuição de lucro em vez de pró-labore, e similares. Cada categoria tem particularidades que o Bruno aborda em vídeos específicos:
-
-<ul class="yt-videos">
-  <VideoLink slug="YT-2024-05-07-Posso_pagar_o_INSS_em_atraso_para_me_aposentar" title="Posso pagar o INSS em atraso para me aposentar?" descricao="panorama geral sobre o recolhimento retroativo e indenização" />
-  <VideoLink slug="YT-2023-02-10-Como_recolher_contribuicao_em_atraso_sendo_ADVOGADO" title="Como recolher contribuição em atraso sendo advogado" descricao="caso específico do advogado autônomo, com OAB ativa e sem recolhimento" />
-  <VideoLink slug="YT-2024-10-29-Recolhimento_em_Atraso_do_Socio_Quotista_-_Um_caso_unico_ou_uma_realidade" title="Recolhimento em atraso do sócio quotista" descricao="sócio-empresário sem pró-labore, indenização e prova da atividade" />
-  <VideoLink slug="YT-2021-09-28-Sou_MEI_microempreendedor_individual_posso_me_aposentar" title="Sou MEI: posso me aposentar?" descricao="regras específicas do MEI e caminhos de complementação" />
-</ul>
+<YoutubeEmbed slug="YT-2025-01-14-Aposentadoria_Especial_do_Tecnico_de_Protese_Dentaria" title="Aposentadoria especial do técnico de prótese dentária — profissional autônomo (CI) com exposição comprovada a agentes químicos" />
 
 ## Sócio e pró-labore
 
@@ -173,47 +149,6 @@ O sócio que recebe **pró-labore** é CI e contribui sobre esse valor. O sócio
 Muitos sócios de pequenas empresas tiram apenas distribuição de lucros para economizar no INSS. Anos depois, descobrem que não têm tempo de contribuição algum. O planejamento certo é **pro-labore mínimo de 1 SM** recolhido mensalmente — caro para o caixa da empresa, mas barato perto da alternativa (ficar sem benefício).
 
 </Atencao>
-
-## Jurisprudência essencial
-
-<Jurisprudencia fonte="STJ, Tema 1.018">
-
-O segurado pode, dentro do mesmo período de contribuição, receber **dois benefícios distintos** quando preenchidos requisitos próprios (ex.: aposentadoria + pensão por morte; auxílio-acidente + aposentadoria). Tema relevante para o CI que tem múltiplas janelas de benefício.
-
-</Jurisprudencia>
-
-<Jurisprudencia fonte="TRF4, AC 5004985-63.2024.4.04.7104, 5ª Turma, Rel. Hermes Siedler da Conceição Júnior, julgado em 16/04/2026">
-
-"APOSENTADORIA POR TEMPO DE CONTRIBUIÇÃO. PERÍODO RURAL INDENIZADO. DIB E DIP NA DER. REAFIRMAÇÃO DA DER AUTÔNOMA. MULTA E JUROS. CONSECTÁRIOS." Fixa que, **quando o INSS se omite na emissão das guias de indenização (art. 45-A)**, a DIB e DIP devem retroagir à DER do requerimento administrativo — o segurado não pode ser prejudicado pela inércia da autarquia. Precedente útil sempre que a indenização é pleiteada em juízo.
-
-</Jurisprudencia>
-
-<Jurisprudencia fonte="Súmula 272 TST">
-
-"O trabalhador rural, ora safrista, não se equipara ao trabalhador rural com vínculo empregatício permanente, para fins de aposentadoria." (Útil para diferenciar CI rural do empregado rural e do segurado especial — tema da próxima aula.)
-
-</Jurisprudencia>
-
-## Mapa legislativo
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| **Lei 8.213/91, art. 11, V** | Definição do contribuinte individual |
-| **Lei 8.212/91, art. 21** | Alíquotas (20%, 11%, 5%) e plano simplificado |
-| **Lei 8.212/91, art. 21, §3º** | Complemento do plano simplificado |
-| **Lei 8.212/91, art. 45-A** | Indenização de período decaído |
-| **LC 123/2006, art. 18-A** | Regime do MEI |
-| **Decreto 3.048/99, art. 9º, V** | Detalhamento das espécies de CI |
-
-## Checklist do primeiro atendimento — CI e MEI
-
-- [ ] NIT ativo e CNIS sem lacunas recentes
-- [ ] Levantamento de períodos em aberto (nunca recolhidos)
-- [ ] Identificação de alíquota usada em cada competência (5/11/20%)
-- [ ] Se houve 5/11%, simular custo/benefício do complemento para 20%
-- [ ] Para MEI, conferir DAS em dia (o INSS nega benefício por atraso)
-- [ ] Para sócio, verificar se há pró-labore no contrato social e se foi recolhido
-- [ ] Para profissional liberal, cruzar NFS-e emitidas com recolhimentos no CNIS
 
 ## Vídeos relacionados
 

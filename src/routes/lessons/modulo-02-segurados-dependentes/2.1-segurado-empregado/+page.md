@@ -50,7 +50,7 @@ Institui o Simples Doméstico, regime unificado que engloba INSS do empregador (
 
 <Atencao title="Divisor de águas: 02/06/2015">
 
-Períodos anteriores à LC 150/2015 exigem atenção redobrada. O doméstico sem registro formal nesse período pode ter tido contribuição recolhida **pelo empregado**, não pelo patrão. A conferência do CNIS é essencial — muitas vezes o vínculo existe mas a contribuição não foi recolhida, e isso precisa ser regularizado com recolhimento complementar (art. 45-A da Lei 8.212).
+Períodos anteriores à LC 150/2015 exigem atenção redobrada. O doméstico sem registro formal nesse período pode ter tido contribuição recolhida **pelo empregado**, não pelo patrão. A conferência do CNIS é essencial — muitas vezes o vínculo existe mas a contribuição não foi recolhida, e isso precisa ser regularizado com recolhimento complementar.
 
 </Atencao>
 

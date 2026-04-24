@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/state';
 	import { modules } from '$lib/course-data.js';
-	import { getLegislationUpTo } from '$lib/legislation-data.js';
+	import { getLegislationUpTo, legislationItemId } from '$lib/legislation-data.js';
 
 	let { drawerId = 'legislation-drawer' } = $props();
 
@@ -50,7 +50,10 @@
 			<div class="space-y-3">
 				{#each legislation as item (item.ref)}
 					{@const style = typeStyles[item.type] || { label: item.type, cls: 'badge-ghost' }}
-					<div class="rounded-lg border border-base-300 bg-base-300/20 p-3">
+					<div
+						id={legislationItemId(item.ref)}
+						class="scroll-mt-4 rounded-lg border border-base-300 bg-base-300/20 p-3 transition-[outline-color,outline-width] outline-2 outline-transparent"
+					>
 						<div class="mb-1.5 flex items-center gap-2">
 							<span class="badge {style.cls} badge-sm">{style.label}</span>
 							<span class="text-sm font-semibold">{item.ref}</span>

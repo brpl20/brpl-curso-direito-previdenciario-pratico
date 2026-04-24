@@ -100,8 +100,61 @@ export const legislationByLesson = {
 			ref: 'LC 108/2001',
 			text: 'Relação entre a União, Estados, DF e Municípios e suas respectivas entidades fechadas.'
 		}
+	],
+	'2.2-contribuinte-individual': [
+		{
+			type: 'lei',
+			ref: 'Lei 8.213/91, art. 11, V',
+			text: 'Define as espécies de contribuinte individual: autônomo, profissional liberal, titular de firma individual, sócio/diretor com pró-labore, síndico remunerado, ministro religioso, garimpeiro, produtor rural > 4 módulos, entre outros.'
+		},
+		{
+			type: 'lei',
+			ref: 'Lei 8.213/91, art. 55, §3º',
+			text: 'A comprovação de tempo de serviço para efeitos desta Lei só produzirá efeito quando baseada em início de prova material, não admitida prova exclusivamente testemunhal, salvo motivo de força maior ou caso fortuito.'
+		},
+		{
+			type: 'lei',
+			ref: 'Lei 8.212/91, art. 21',
+			text: 'Alíquotas do CI: 20% (plano normal), 11% (plano simplificado — SM), 5% (MEI e baixa renda — SM).'
+		},
+		{
+			type: 'decreto',
+			ref: 'Decreto 3.048/99, art. 216, §26',
+			text: 'O síndico ou administrador eleito para exercer atividade de direção condominial, desde que receba remuneração (inclusive isenção de cota condominial), está sujeito ao desconto e recolhimento pelo condomínio, à alíquota de 11%.'
+		},
+		{
+			type: 'jurisprudencia',
+			ref: 'STJ, REsp 411.832/RS',
+			text: 'Rel. Min. Francisco Falcão. A isenção da taxa condominial concedida ao síndico é juridicamente equiparada a remuneração para fins de incidência de contribuição previdenciária.'
+		},
+		{
+			type: 'jurisprudencia',
+			ref: 'TRF1, 8ª Turma, Rel. Leomar Amorim, j. 14/10/2010',
+			text: '"É devida a contribuição social sobre o pagamento do pró-labore aos síndicos de condomínios imobiliários, assim como sobre a isenção da taxa condominial devida a eles."'
+		},
+		{
+			type: 'jurisprudencia',
+			ref: 'TRF1, CRP/JF, Proc. 0011388-39.2004.4.01.3800, j. 17/06/2020',
+			text: '1ª Câmara Regional Previdenciária de Juiz de Fora, Rel. JF Ubirajara Teixeira — reconhece mais de três anos de tempo de contribuição como síndico, aceitando como prova material recibos de remuneração e atas de assembleia (retificação de categoria pelo art. 55, §3º, da Lei 8.213/91).'
+		},
+		{
+			type: 'jurisprudencia',
+			ref: 'TRF4, AC 5060653-11.2022.4.04.7000, 10ª Turma, Rel. Leonardo Castanho Mendes, j. 18/11/2025',
+			text: 'Consolidou que "o síndico ou administrador eleito para exercer atividade de direção condominial, desde que recebam remuneração", é contribuinte individual obrigatório pelo art. 11, V, "f", da Lei 8.213/91.'
+		}
 	]
 };
+
+/** Gera um id DOM determinístico para um item do drawer a partir do seu `ref` */
+export function legislationItemId(ref) {
+	const normalized = String(ref)
+		.toLowerCase()
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+|-+$/g, '');
+	return `leg-${normalized}`;
+}
 
 /** Retorna todos os pontos legislativos acumulados até a lição atual */
 export function getLegislationUpTo(currentSlug) {
