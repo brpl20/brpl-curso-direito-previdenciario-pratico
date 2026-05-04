@@ -38,7 +38,7 @@ Diferente do CI, que indeniza períodos antigos via art. 45-A, o **facultativo s
 
 - **Dona de casa** (o exemplo clássico)
 - **Estudante** maior de 16 que não trabalha
-- **Desempregado** após o fim do período de graça
+- **Desempregado** (recebendo ou não seguro desemprego)
 - **Bolsista de pesquisa** sem vínculo formal
 - **Síndico não remunerado** (se for remunerado, vira CI)
 - **Estagiário** (a Lei 11.788/2008 não gera filiação obrigatória — pode optar por facultativo)
@@ -50,6 +50,12 @@ Diferente do CI, que indeniza períodos antigos via art. 45-A, o **facultativo s
 Pode, **se** residir em imóvel rural e participar efetivamente da economia familiar rural. A diferença é enorme: o segurado especial contribui pela comercialização (ou nem contribui, na aposentadoria rural por idade), enquanto o facultativo paga alíquota mensal. A prática rural, comprovada por início de prova material, sempre será mais vantajosa quando existir.
 
 </Pergunta>
+
+<Dica title="Estagiário — confira o regime antes de orientar">
+
+Estágios em **órgãos públicos** podem ter vinculação própria conforme o ente, e nesse caso o estagiário pode ser segurado obrigatório e você pode reconhecer o tempo e talvez até indeniza-lo para contar como tempo de contribuição.
+
+</Dica>
 
 ## Alíquotas — iguais às do CI
 
@@ -74,26 +80,26 @@ Para a alíquota de 5%, é preciso **cumulativamente**: (1) inscrição no CadÚ
 ## Vedações — quem **não** pode ser facultativo
 
 - **Menor de 16 anos** (mesmo na condição de aprendiz a partir dos 14, não pode ser facultativo)
-- **Participante de RPPS** que já tenha cobertura previdenciária completa (art. 201, §5º, CF/88)
+- **Participante de RPPS (Ativo ou Aposentado)** que já tenha cobertura previdenciária completa (art. 201, §5º, CF/88)
 - **Quem já é segurado obrigatório** no RGPS pela mesma atividade
 
 <Atencao title="Servidor público e facultativo no RGPS">
 
-Servidor de RPPS com cobertura **plena** não pode ser facultativo do RGPS. Mas o servidor de cargo em comissão (sem RPPS) ou servidor temporário é segurado **obrigatório do RGPS** — não facultativo. E o servidor com RPPS pode contribuir como CI se exercer atividade remunerada fora do cargo (advocacia, aluguéis com natureza de serviço, etc.), nunca como facultativo.
+Servidor de RPPS com cobertura **plena** não pode ser facultativo do RGPS. Mas o servidor de cargo em comissão (sem RPPS) ou servidor temporário é segurado **obrigatório do RGPS** — não facultativo. O servidor com RPPS pode contribuir como CI obrigatório se exercer atividade remunerada fora do cargo (professor, advocacia etc), nunca como facultativo. No caso de recolhimentos incorretos é possível pedir restituição dos valores pagos indevidamente através de um procedimento na Receita Federal - PER/DCOMP.
 
 </Atencao>
 
 ## Data da filiação e qualidade de segurado
 
-A filiação do facultativo ocorre com a **primeira contribuição**, não com a inscrição. E se deixar de contribuir, entra no **período de graça** de **6 meses** — o mais curto do sistema.
-
-Essa é uma das razões pelas quais o planejamento do facultativo é delicado: basta esquecer a GPS por dois meses e a qualidade pode estar em risco.
+A filiação do facultativo ocorre com a **primeira contribuição**, não com a inscrição. E se deixar de contribuir, entra no **período de graça** de **6 meses** — o mais curto do sistema. Claro se tiver conquistado o período mínimo de carencia.
 
 <Jurisprudencia fonte="TNU, Tema 160">
 
 A filiação do segurado facultativo ocorre com o **primeiro recolhimento**, ainda que em atraso, desde que o pagamento se refira a competência dentro do prazo legal.
 
 </Jurisprudencia>
+
+Além disso a discussão pode recair sobre o valor da contribuição, abaixo do mínimo teria validade? Esse juamento é bem interessante e pode salvar casos de Pensão por Morte:
 
 <Jurisprudencia fonte="TRF4, AC 5008104-82.2021.4.04.9999, 11ª Turma, Rel. Marina Vasques Duarte, julgado em 09/04/2025">
 
@@ -103,7 +109,7 @@ A filiação do segurado facultativo ocorre com o **primeiro recolhimento**, ain
 
 <Dica title="A saída prática quando o INSS não valida a baixa renda">
 
-Cenário recorrente: cliente faleceu contribuindo a 5% como facultativo de baixa renda; o INSS indefere a pensão alegando que o CadÚnico não estava em dia ou que a renda familiar excedia o limite. O acórdão do TRF4 abre a porta para a **complementação post mortem** pelos dependentes — recolhe-se a diferença até 20% (ou até 11%, para manter ao menos a vinculação) e o vínculo é preservado. Ação própria no JEF, com depósito judicial da complementação como pedido subsidiário.
+Cenário recorrente: cliente faleceu contribuindo a 5% como facultativo de baixa renda; o INSS indefere a pensão alegando que o CadÚnico não estava em dia ou que a renda familiar excedia o limite. O acórdão do TRF4 abre a porta para a **complementação post mortem** pelos dependentes — recolhe-se a diferença até 20% (ou até 11%, para manter ao menos a vinculação) e o vínculo é preservado. .
 
 </Dica>
 
@@ -113,7 +119,7 @@ Diferente do CI, que pode pagar em atraso mesmo sem qualidade vigente, o **facul
 
 <Atencao title="A pior armadilha do facultativo">
 
-Cliente que pagou como facultativo por anos, parou por 12 meses, e agora quer pagar tudo retroativo: **não dá**. Os 12 meses de atraso não podem ser regularizados. O que ele recolher depois só vale para frente. Essa é a diferença **estruturante** entre facultativo e CI, e é onde muitos advogados desatentos prometem o que não podem entregar.
+Cliente que pagou como facultativo por anos, parou por 12 meses, e agora quer pagar tudo retroativo: **não dá**. Os 12 meses de atraso não podem ser regularizados. O que ele recolher depois só vale para frente. Essa é a diferença **estruturante** entre facultativo e CI.
 
 </Atencao>
 
@@ -139,58 +145,10 @@ Pode, e muitas vezes **deve**. O art. 15, II, da Lei 8.213/91 garante 12 meses d
 
 </Pergunta>
 
-## Casos práticos recorrentes
-
-### Caso 1 — Dona de casa que nunca trabalhou
-
-Solução: facultativo de baixa renda (5%) se atender aos requisitos do CadÚnico. Senão, plano simplificado (11%) ou normal (20%). Nunca prometa aposentadoria por tempo de contribuição se ela recolher 5% ou 11% sem complemento.
-
-### Caso 2 — Estudante de 18 anos
-
-Solução: facultativo simplificado (11%). Permite começar a contar tempo cedo para aposentadoria por idade. Se entrar no mercado de trabalho formal, converte-se automaticamente em empregado.
-
-### Caso 3 — Desempregado há 2 anos
-
-Solução: verificar primeiro se ainda está no período de graça estendido (24 ou 36 meses — art. 15, §§ 1º e 2º). Se não estiver, filiar como facultativo para não perder cobertura para família.
-
-### Caso 4 — Advogado recém-formado ainda sem clientes
-
-Solução: **CI**, não facultativo. A OAB já gera filiação obrigatória ao RGPS como contribuinte individual a partir da inscrição. Deve recolher pelo menos sobre o salário mínimo mensalmente.
-
-## Mapa legislativo
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| **CF/88, art. 201, §5º** | Vedação ao segurado de RPPS |
-| **Lei 8.213/91, art. 13** | Conceito de segurado facultativo |
-| **Lei 8.213/91, art. 15, VI** | Período de graça de 6 meses |
-| **Lei 8.212/91, art. 21** | Alíquotas (20%, 11%, 5%) |
-| **Lei 8.212/91, art. 21, §2º, II** | Facultativo simplificado e de baixa renda |
-| **Decreto 3.048/99, art. 11** | Regulamentação |
-| **Lei 11.788/2008** | Estagiário pode optar pela filiação facultativa |
-
-## Checklist do primeiro atendimento — facultativo
-
-- [ ] Confirmar que não é segurado obrigatório (nenhuma atividade remunerada vigente)
-- [ ] Idade ≥ 16 anos
-- [ ] Se busca alíquota de 5%: CadÚnico + renda familiar + dedicação exclusiva comprovadas
-- [ ] Inscrição no INSS (NIT ou CPF ativado) conferida
-- [ ] Alíquota escolhida compatível com o benefício pretendido (5/11% limitam)
-- [ ] GPS em dia — sem intervalos superiores a 6 meses
-- [ ] Se houve interrupção, explicar claramente que o tempo perdido não volta
-- [ ] Planejamento: projetar idade mínima + carência para simular DIB futura
-
 ## Vídeos relacionados
 
-Para aprofundar no canal @brunopellizzetti:
-
 <ul class="yt-videos">
-  <VideoLink slug="YT-2023-02-10-Como_recolher_contribuicao_em_atraso_sendo_ADVOGADO" title="Como recolher contribuição em atraso sendo advogado" descricao="útil para o advogado orientar também facultativos (a lógica do atraso é diferente)" />
   <VideoLink slug="YT-2023-08-25-Tutorial_Como_Regularizar_Contribuicoes_Abaixo_do_Minimo_Legal" title="Como regularizar contribuições abaixo do mínimo legal" descricao="quando o facultativo recolheu sobre base errada" />
   <VideoLink slug="YT-2021-10-28-Como_complementar_as_contribuicoes_previdenciarias_do_MEI_e_baixa_renda_para_Aposentadoria" title="Como complementar contribuições do MEI e baixa renda para aposentadoria" descricao="o complemento de 5/11% para 20% também se aplica ao facultativo" />
   <VideoLink slug="YT-2025-01-30-como_fazer_REAJUSTE_das_contribuicoes_do_INSS_-_De_forma_ONLINE_e_SIMPLES" title="Como fazer reajuste das contribuições do INSS de forma online e simples" descricao="correção de GPS com valor desatualizado" />
 </ul>
-
----
-
-**Próxima aula:** [2.5 — Dependentes: classes e concorrência](/lessons/modulo-02-segurados-dependentes/2.5-dependentes-classes)

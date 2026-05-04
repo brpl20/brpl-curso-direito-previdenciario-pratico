@@ -40,9 +40,27 @@ Todo benefício previdenciário exige, como regra, que o segurado esteja com a *
 
 <Atencao title="Não esqueça: auxílio-acidente não mantém qualidade">
 
-O art. 15, I, fala em "gozo de benefício, **exceto** auxílio-acidente". Antes da Lei 13.846/2019, o auxílio-acidente mantinha qualidade — por isso, em processos antigos (pré-2019), sempre verifique a regra vigente na época do fato. Para benefícios atuais, auxílio-acidente **não** mantém qualidade de segurado.
+O art. 15, I, fala em "gozo de benefício, **exceto** auxílio-acidente". Antes da Lei 13.846/2019, o auxílio-acidente mantinha qualidade — por isso, em processos antigos (pré-2019), sempre verifique a regra vigente na época do fato. Para benefícios atuais, auxílio-acidente **não** mantém qualidade de segurado. Isso é importante porque você pode converter um antigo auxílio acidente em uma aposentadoria por invalidez.
 
 </Atencao>
+
+### Sobre a segregação compulsória (inciso III)
+
+A hipótese do inciso III é hoje rara — foi pensada para hanseníase, tuberculose ativa e outras doenças com isolamento legal obrigatório. Na prática moderna a tese aparece pouco, mas a pandemia de COVID-19 reabriu a discussão sobre o que conta como "segregação".
+
+Vale o registro: **não houve lei específica de COVID** prorrogando o período de graça. O PL 1.113/2020 e normas correlatas dispensaram **carência** para benefícios por incapacidade decorrentes da COVID, mas não tocaram no art. 15. A jurisprudência então passou a tratar o segurado afetado pela pandemia (perda de emprego no setor + adoecimento) pela via clássica do **§2º (desemprego involuntário)**, e não pelo inciso III.
+
+<Jurisprudencia fonte="TRF4, AC 5006499-62.2025.4.04.9999, 5ª Turma, j. 11/02/2026">
+
+"A qualidade de segurado do autor na DER (27/07/2021) foi reconhecida, pois a situação de desemprego involuntário, comprovada pela ausência de novos registros na CTPS, **problemas de saúde (COVID-19 e internação) e o impacto da pandemia no setor de transporte**, justifica a prorrogação do período de graça por mais 12 meses, conforme o art. 15, § 2º, da Lei nº 8.213/1991."
+
+</Jurisprudencia>
+
+<Dica title="Como construir a tese COVID na prática">
+
+Para clientes que perderam contribuição por causa da pandemia (motorista de aplicativo, profissional do setor de eventos, comércio, autônomos do turismo), o caminho não é o inciso III (segregação) — é o **§2º (desemprego involuntário)** combinado com **prova oral + prontuário médico** (TRF4 AC 5002148-41.2020 já citada acima). Junte: ausência de novos vínculos no CNIS, atestado de COVID/internação, recortes de notícias sobre o impacto no setor, depoimentos.
+
+</Dica>
 
 ## Prorrogações do prazo de 12 meses (art. 15, §§ 1º e 2º)
 
@@ -93,15 +111,29 @@ Tese de ouro para causas onde o segurado parou de contribuir por doença (sem af
 
 </Jurisprudencia>
 
+<Atencao title="O que mais mata a tese!">
+
+Nos casos de desemprego o que mais acaba com as teses de desemprego involuntário é: "Estava fazendo bicos", isso derroga totalmente a condição de desempregado. Lembra que o segurado não pode estar vinculado a duas categorias ao mesmo tempo? O mesmo vale para o desemprego, ou está desempregado ou está trabalhando como contribuinte individual. Mesmo que ele receba pouco nos seus bicos. Então é fundamental a instrução séria de testemunhas e do próprio segurado nestes casos. Especialmente na pensão por morte isso é muito sério pois pode impedir que a família usufrua o benefício.
+
+</Atencao>
+
 ## Extensão fina: o "+1" do art. 15, §4º
 
-Depois de contar os 12, 24 ou 36 meses, a qualidade **só se perde no dia seguinte ao prazo legal de recolhimento da competência imediatamente posterior**. Como o prazo de recolhimento do CI facultativo vence no **dia 15 do mês seguinte**, na prática a qualidade se estende um pouquinho além dos 12/24/36 meses completos.
+Depois de contar os 12, 24 ou 36 meses, a qualidade **só se perde no dia seguinte ao prazo legal de recolhimento da competência imediatamente posterior**. Como o prazo de recolhimento do CI e facultativo vence no **dia 15 do mês seguinte**, na prática a qualidade se estende um pouquinho além dos 12/24/36 meses completos.
 
 <Legislacao ref="Lei 8.213/91, art. 15, §4º">
 
 "A perda da qualidade de segurado ocorrerá no dia seguinte ao do término do prazo fixado [...] para recolhimento da contribuição referente ao mês imediatamente posterior ao final dos prazos fixados neste artigo e seus parágrafos."
 
 </Legislacao>
+
+<Atencao title="O §4º se aplica também ao facultativo">
+
+A redação do §4º é genérica: fala em "prazos fixados **neste artigo e seus parágrafos**" — abrange portanto todos os incisos do art. 15, **inclusive o VI (facultativo)**. Não há distinção legal entre obrigatório e facultativo para fins da extensão fina, e essa é a interpretação adotada pelo INSS administrativamente e pela jurisprudência uniforme. Para o facultativo: 6 meses do inciso VI + mês seguinte + dia 15 do mês posterior = a qualidade só se perde no dia 16 do **oitavo mês** após a última contribuição.
+
+Não localizei precedente do TRF4 que discuta especificamente a aplicação do §4º ao facultativo — provavelmente porque a aplicação é tão consensual que nunca virou litígio. A doutrina majoritária (Castro/Lazzari, Ibrahim) e os manuais técnicos do INSS confirmam.
+
+</Atencao>
 
 <Dica title="Exemplo prático da extensão">
 
@@ -130,6 +162,8 @@ Beneficiário de BPC/LOAS que acha que está "protegido" porque recebe do INSS e
 
 </Atencao>
 
+
+
 <Pergunta pergunta="Seguro-desemprego pode ser usado como prova de desemprego para prorrogar o período de graça?">
 
 Sim. O recebimento de seguro-desemprego é **prova direta** de desemprego involuntário perante o Ministério do Trabalho — supre com sobra a exigência do art. 15, §2º. Sempre peça ao cliente os comprovantes de recebimento. Além disso, demonstra que não houve atividade informal concomitante (o seguro é cessado em caso de nova atividade remunerada).
@@ -146,7 +180,7 @@ Depois de perder a qualidade, o segurado pode **reingressar** no sistema. A regr
 
 </Legislacao>
 
-Ou seja: quem perdeu a qualidade e voltou a contribuir precisa cumprir **carência do zero** (12, 24, 180 meses, conforme o benefício).
+Ou seja: quem perdeu a qualidade e voltou a contribuir precisa cumprir **carência do zero** (conforme o benefício).
 
 <Atencao title="A regra que mudou em 2019">
 
@@ -158,19 +192,9 @@ Antes da Lei 13.846/2019, havia previsão de "metade da carência" quando o segu
 
 O segurado especial também mantém qualidade durante afastamentos da atividade rural, aplicando-se o mesmo prazo do inciso II (12 meses + prorrogações). É útil quando há hospitalização, cuidado familiar de doente, ou afastamento sazonal acima do normal.
 
-## Fluxograma de decisão no atendimento
+## Exemplo de cálculo
 
-Ao receber um cliente que quer pedir benefício após tempo sem contribuir, siga esta ordem:
-
-1. **Última contribuição foi quando?** (data exata)
-2. **Qual era a categoria** na última contribuição? (empregado, CI, facultativo)
-3. **Total de contribuições na vida** — acima ou abaixo de 120?
-4. **Houve desemprego involuntário?** Se sim, há prova?
-5. **Aplicar prazo-base** + **prorrogações cabíveis** + **§4º (extensão fina)**
-6. **Comparar com a data do fato** (óbito, incapacidade, parto)
-7. **Se qualidade perdida**: avaliar se houve **reingresso posterior** e nova carência
-
-<Dica title="Exemplo de cálculo para pensão por morte">
+<Dica title="Pensão por morte com qualidade no limite">
 
 Segurado morre em **20/03/2026**. Última contribuição foi em **15/01/2024** (empregado). Já tinha 8 anos de contribuição (menos de 120). Não comprovou desemprego formal.
 
@@ -180,30 +204,6 @@ Segurado morre em **20/03/2026**. Última contribuição foi em **15/01/2024** (
 - **Conclusão: qualidade perdida em 16/02/2025. Óbito em 20/03/2026 — sem pensão, a menos que se construa prova de desemprego para ampliar para 24 meses.**
 
 </Dica>
-
-## Mapa legislativo
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| **Lei 8.213/91, art. 15** | Hipóteses de manutenção da qualidade |
-| **Lei 8.213/91, art. 15, §§ 1º a 4º** | Prorrogações e extensão fina |
-| **Lei 8.213/91, art. 27-A** | Carência após reingresso (Lei 13.846/2019) |
-| **Lei 13.846/2019** | Alterações em regras de qualidade e auxílio-acidente |
-| **Decreto 3.048/99, art. 13** | Regulamentação do período de graça |
-| **Súmula 27 TNU** | Flexibilização da prova de desemprego |
-
-## Checklist — análise de qualidade de segurado
-
-- [ ] Data da última contribuição identificada no CNIS
-- [ ] Categoria na última contribuição (empregado/CI/facultativo/especial)
-- [ ] Total de contribuições na vida (para saber se passa de 120)
-- [ ] Comprovação de desemprego (CTPS, Sine, seguro-desemprego, extratos)
-- [ ] Cálculo do prazo-base
-- [ ] Aplicação das prorrogações (§§ 1º e 2º)
-- [ ] Aplicação do §4º (extensão fina até dia 15 do 2º mês seguinte)
-- [ ] Cruzamento com a data do fato gerador
-- [ ] Se perdeu: verificar se há reingresso e nova carência
-- [ ] Para BPC/seguro-desemprego: alertar cliente sobre não-manutenção
 
 ## Vídeos relacionados
 
@@ -215,7 +215,3 @@ Para aprofundar no canal @brunopellizzetti:
   <VideoLink slug="YT-2021-05-27-LOAS_BPC_-_5_dicas_para_evitar_o_pente_fino_do_INSS" title="LOAS/BPC — 5 dicas para evitar o pente-fino do INSS" descricao="cuidados com o titular do BPC" />
   <VideoLink slug="YT-2024-05-07-Posso_pagar_o_INSS_em_atraso_para_me_aposentar" title="Posso pagar o INSS em atraso para me aposentar?" descricao="a relação entre atraso e qualidade de segurado" />
 </ul>
-
----
-
-**Parabéns!** Você concluiu o **Módulo 02 — Segurados e Dependentes**. No próximo módulo, estudaremos o **Custeio e Contribuições Previdenciárias**.

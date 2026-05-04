@@ -5,6 +5,7 @@ import Legislacao from '$lib/components/Legislacao.svelte';
 import Jurisprudencia from '$lib/components/Jurisprudencia.svelte';
 import Pergunta from '$lib/components/Pergunta.svelte';
 import VideoLink from '$lib/components/VideoLink.svelte';
+import YoutubeEmbed from '$lib/components/YoutubeEmbed.svelte';
 </script>
 
 # 2.5 — Dependentes: classes e concorrência
@@ -78,13 +79,13 @@ A união estável é equiparada ao casamento para fins previdenciários desde a 
 
 <Atencao title="União estável homoafetiva">
 
-A união estável entre pessoas do mesmo sexo é reconhecida para todos os efeitos previdenciários desde a **IN INSS 25/2000** e a decisão do STF na **ADI 4.277** (2011). O INSS admite administrativamente, com a mesma prova exigida para união heteroafetiva. Se houver indeferimento por esse motivo, é causa líquida no JEF.
+A união estável entre pessoas do mesmo sexo é reconhecida para todos os efeitos previdenciários desde a **IN INSS 25/2000** e a decisão do STF na **ADI 4.277** (2011). O INSS admite administrativamente, com a mesma prova exigida para união heteroafetiva.
 
 </Atencao>
 
 <Pergunta pergunta="Paralelismo afetivo: duas famílias simultâneas geram duas pensões?">
 
-O STF, no **Tema 526** (2020), decidiu que a união estável **paralela** ao casamento **não** gera direito à divisão da pensão. A pensão vai integralmente ao cônjuge/companheiro que detinha a união exclusiva. Exceções ocorrem em casos muito específicos de boa-fé da segunda companheira, mas a regra é a da exclusividade. No atendimento, pergunte francamente se havia outra relação.
+O STF, no **Tema 526** (2020), decidiu que a união estável **paralela** ao casamento **não** gera direito à divisão da pensão. Na prática a questão é mais complexa do que o tema faz parecer, uma vez que envolve situação de fato e as provas vão mudar totalmente o rumo do processo se for demonstrado sendo frágil a distinção entre concobinato e união estável paralela.
 
 </Pergunta>
 
@@ -97,15 +98,54 @@ São dependentes da classe I:
 - Filho com **deficiência intelectual ou mental** (grave ou moderada)
 - Filho com **deficiência grave** (incluída pela Lei 13.146/2015 — Estatuto da Pessoa com Deficiência)
 
-<Atencao title="Invalidez deve existir antes dos 21 anos">
+<YoutubeEmbed id="bLVpQGEpqmI" title="Filho maior inválido tem direito à pensão por morte?" />
 
-Para manter a condição de dependente na idade adulta, a invalidez do filho tem que ter **começado antes dos 21 anos** — salvo exceções. Se a incapacidade surgiu depois (por exemplo, aos 30 anos, após doença), o filho **não** é mais dependente. Esse é um dos pontos mais confundidos no atendimento.
+<Atencao title="Marco temporal: invalidez antes do óbito">
+
+**Não é necessário que a invalidez tenha surgido antes dos 21 anos.** O critério firmado pelo TRF4 é outro: basta que a invalidez ou deficiência **exista ao tempo do óbito do segurado instituidor**, mesmo que tenha surgido depois da maioridade do filho.
+
+Ou seja: filho que ficou inválido aos 30 anos por doença, e cujo pai/mãe segurado vem a falecer quando ele tem 35 anos, **continua sendo dependente** da classe I — desde que a invalidez seja anterior ao óbito e a dependência econômica não seja desconstituída por prova em contrário (presunção é relativa, art. 16, §4º).
+
+Cuidado com a prova pericial nestes casos, foque bastante em comprovar não só a situação, mas também a data do seu início, juntando documentos antigos. Se o perito não conseguir precisar a data ele poderá considerar a partir da perícia o que vai jogar seu caso por água abaixo.
 
 </Atencao>
 
-### Filho menor sob guarda
+<Jurisprudencia fonte="TRF4, AC 5063702-89.2024.4.04.7000, Rel. Márcio Antonio Rocha, 10ª Turma, j. 07/10/2025">
 
-A **IN 128/2022** do INSS e a **Súmula 4** do CRPS (reiterada pela jurisprudência) admite o **menor sob guarda** como dependente do guardião, equiparado ao filho, para fins previdenciários — apesar da controvérsia histórica.
+"O parágrafo 4º do art. 16 da Lei 8.213/1991 estabelece uma presunção relativa de dependência econômica do filho maior, inválido ou portador de deficiência intelectual ou mental ou deficiência grave, que pode ser elidida por prova em sentido contrário. **Não se exige que a condição tenha se implementado após sua maioridade, sendo essencial apenas que ocorra, em regra, antes do óbito do instituidor.**"
+
+</Jurisprudencia>
+
+<Dica title="O cuidado que ainda vale">
+
+O INSS administrativamente ainda costuma resistir e exigir comprovação de invalidez "antes dos 21" — é um padrão de indeferimento. Na prática: protocolize com toda a documentação médica de início da invalidez, e se vier indeferimento, a inicial no JEF cita o precedente acima. A regra correta a sustentar é a do óbito, não a da maioridade.
+
+</Dica>
+
+### Filho menor sob guarda — Lei 15.108/2025 fechou a controvérsia
+
+Esse foi um dos pontos mais sangrentos do contencioso previdenciário por quase três décadas. A redação original da Lei 8.213/91 incluía o menor sob guarda como dependente; a **Lei 9.528/97** o excluiu; o STJ, em respeito ao art. 227 da CF/88 e ao ECA, manteve o reconhecimento na via judicial (Tema 732); a **EC 103/2019, art. 23, §6º** reforçou a exclusão; a discussão escalou ao STF (Tema 1271, em julgamento).
+
+A controvérsia foi superada pela **Lei 15.108/2025** (de 13/03/2025), que reescreveu o art. 16, §2º da Lei 8.213/91 para equiparar a filho **três figuras**:
+
+<Legislacao ref="Lei 8.213/91, art. 16, §2º (redação Lei 15.108/2025)">
+
+"O enteado, o menor sob tutela e o menor sob guarda judicial equiparam-se a filho, mediante declaração do segurado e desde que não possuam condições suficientes para o próprio sustento e educação."
+
+</Legislacao>
+
+Os requisitos legais cumulativos passaram a ser:
+
+1. **Guarda/tutela judicial** (não basta a guarda fática)
+2. **Declaração do segurado** em vida — quando faltar, a jurisprudência aceita a comprovação posterior (ver socioafetividade abaixo)
+3. **Ausência de condições próprias de sustento e educação**
+4. **Comprovação de dependência econômica**
+
+<Jurisprudencia fonte="TRF4, AC 5005713-18.2025.4.04.9999, Rel. Vânia Hack de Almeida, 5ª Turma, j. 25/02/2026">
+
+"A Lei 15108/2025 alterou o artigo 16, § 2º, da Lei 8213/91, **equiparando o menor sob guarda judicial a filho para fins previdenciários, desde que comprovada a dependência econômica**. O artigo 33, § 3º, da Lei 8069/90 (ECA) já conferia à criança ou adolescente sob guarda a condição de dependente."
+
+</Jurisprudencia>
 
 <Jurisprudencia fonte="STJ, Tema 732">
 
@@ -113,47 +153,40 @@ A **IN 128/2022** do INSS e a **Súmula 4** do CRPS (reiterada pela jurisprudên
 
 </Jurisprudencia>
 
-## Cotas da pensão — EC 103/2019 reformulou tudo
+<Atencao title="Casos antigos pré-Lei 15.108/2025">
 
-Antes da reforma, a pensão por morte era paga em 100% ao grupo familiar. Após 13/11/2019 (vigência da EC 103), passou a ser calculada em **cotas**:
-
-<Legislacao ref="EC 103/2019, art. 23">
-
-"A pensão por morte será equivalente a uma cota familiar de 50% do valor da aposentadoria recebida pelo segurado ou daquela a que teria direito se fosse aposentado por incapacidade permanente na data do óbito, acrescida de cotas de 10 pontos percentuais por dependente, até o limite de 100%."
-
-</Legislacao>
-
-### Exemplos práticos
-
-| Configuração familiar | Cota familiar | Cotas por dependente | Total |
-|-----------------------|---------------|-----------------------|-------|
-| Cônjuge sem filhos | 50% | + 10% (1 dep.) | **60%** |
-| Cônjuge + 1 filho | 50% | + 20% (2 dep.) | **70%** |
-| Cônjuge + 2 filhos | 50% | + 30% (3 dep.) | **80%** |
-| Cônjuge + 4 filhos | 50% | + 50% (5 dep.) | **100%** |
-
-<Atencao title="Extinção de cota não reversível">
-
-Quando um filho completa 21 anos, sua cota de 10% **é extinta** — e, após a EC 103, **não volta** para os demais dependentes. É a chamada **extinção não reversível**. Na prática, a família perde renda aos poucos. Esse é um dos pontos mais traumáticos da reforma para as viúvas com filhos adolescentes.
+Para óbitos ocorridos **antes de 13/03/2025**, a regra vigente à época do óbito é a que se aplica (Súmula 340 STJ). Nesses casos, a tese segue sendo a do STJ Tema 732 + art. 227 da CF/88 + art. 33, §3º do ECA. Para óbitos a partir de 13/03/2025, a Lei 15.108/2025 dá fundamento direto.
 
 </Atencao>
 
-## Prazos de duração da pensão do cônjuge — tabela essencial
+### Filiação socioafetiva — filho de criação, enteado sem declaração
 
-A EC 103 manteve a regra já existente: duração variável conforme idade do cônjuge/companheiro(a) na data do óbito.
+A jurisprudência recente do TRF4 vem ampliando o art. 16, §2º para reconhecer a **filiação socioafetiva** mesmo na ausência de declaração formal do segurado em vida — desde que a relação de afeto/sustento esteja comprovada por prova robusta (testemunhas, documentos, parecer social).
 
-| Idade no óbito | Duração da pensão |
-|----------------|-------------------|
-| Menor de 22 anos | 3 anos |
-| 22 a 27 anos | 6 anos |
-| 28 a 30 anos | 10 anos |
-| 31 a 41 anos | 15 anos |
-| 42 a 44 anos | 20 anos |
-| **45 anos ou mais** | **Vitalícia** |
+<Jurisprudencia fonte="TRF4, AC 5006917-97.2025.4.04.9999, Rel. Osni Cardoso Filho, j. 24/10/2025">
 
-<Dica title="A carência dos 18 meses de contribuição + 2 anos de união">
+"O reconhecimento da **filiação socioafetiva para fins previdenciários prevalece sobre a exclusão da paternidade biológica**, assegurando o direito à pensão por morte, **independentemente de registro formal em vida do instituidor**."
 
-Para o cônjuge/companheiro receber pensão com esses prazos, é preciso cumprir dois requisitos cumulativos: **18 contribuições** do segurado falecido + **2 anos de casamento/união** antes do óbito. Faltando qualquer um, a pensão dura apenas **4 meses**, independentemente da idade. Exceção: morte por acidente ou doença adquirida após a união.
+</Jurisprudencia>
+
+<Jurisprudencia fonte="TRF4, AC 5008260-65.2024.4.04.9999, Rel. Sebastião Ogê Muniz, j. 11/03/2026">
+
+Pensão a enteadas concedida apesar de ausência de declaração formal do segurado: "A falta de declaração formal do segurado **não é um obstáculo intransponível**, especialmente se não feita em vida, e a exigência de prova da dependência econômica não pode ser interpretada como tarifa de prova em juízo." Conjunto probatório (testemunhas + parecer de assistente social + ausência de auxílio do pai biológico) supriu a falta da declaração.
+
+</Jurisprudencia>
+
+<Dica title="Como conduzir o caso de filho socioafetivo">
+
+Sem declaração formal do segurado em vida, o caso vira contencioso. Construa o conjunto probatório:
+
+1. **Testemunhas** que conviveram com o núcleo familiar (vizinhos, professores, parentes)
+2. **Documentos escolares** apontando o segurado como responsável
+3. **Plano de saúde** com inclusão do menor
+4. **Foto e correspondência** demonstrando convivência longa
+5. **Parecer de assistente social** ou laudo psicossocial
+6. **Comprovante de ausência de auxílio do parente biológico** (extratos, declaração)
+
+A jurisprudência hoje protege esse núcleo, mas exige que a relação seja **pública, contínua e duradoura** — os mesmos parâmetros da união estável.
 
 </Dica>
 
@@ -195,10 +228,6 @@ Quando a pensão é pleiteada por ex-cônjuge alegando reatamento, o risco de in
 
 ## Casos controvertidos recorrentes
 
-### Ex-cônjuge com pensão alimentícia
-
-Tem direito à pensão por morte **proporcional** ao valor dos alimentos que recebia em vida. A partilha é feita entre o atual cônjuge (cota cheia) e o ex (cota limitada aos alimentos).
-
 ### Neto, sobrinho, enteado
 
 Não entram no rol legal do art. 16, salvo **enteado equiparado a filho** por declaração do segurado em vida (art. 16, §2º). Neto e sobrinho dependem de **situação fática equiparada ao menor sob guarda**, com decisão judicial.
@@ -207,51 +236,10 @@ Não entram no rol legal do art. 16, salvo **enteado equiparado a filho** por de
 
 Não é dependente pelo RGPS, **diferentemente** do RPPS de alguns entes (onde existe a figura do estudante universitário dependente até 24 anos). Cuidado para não confundir regimes.
 
-## Mapa legislativo
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| **CF/88, art. 201, V e §7º** | Pensão por morte na Constituição |
-| **CF/88, art. 226, §3º** | União estável |
-| **CF/88, art. 227** | Proteção integral da criança e adolescente |
-| **Lei 8.213/91, art. 16** | Rol de dependentes e classes |
-| **Lei 8.213/91, art. 74 a 77** | Pensão por morte — regras gerais |
-| **EC 103/2019, art. 23** | Cotas da pensão |
-| **Lei 13.146/2015** | Deficiência grave como critério do art. 16 |
-| **Decreto 3.048/99, art. 16** | Regulamentação |
-
-## Checklist do primeiro atendimento — pensão por morte
-
-- [ ] Identificar **todas** as classes possíveis (I, II, III) — priorizar a superior
-- [ ] Para cônjuge: certidão de casamento com data anterior ao óbito
-- [ ] Para companheiro: pelo menos **3 provas** da união estável (objetivo: construir robustez)
-- [ ] Para filho menor: certidão de nascimento + comprovante de não emancipação
-- [ ] Para filho inválido maior: laudo indicando início da invalidez **antes dos 21**
-- [ ] Para pais/irmãos: prova robusta de dependência econômica (declarações, extratos, convivência)
-- [ ] Idade do cônjuge no óbito (determina duração da pensão)
-- [ ] 18 contribuições do falecido + 2 anos de união (ou causa de morte que dispense)
-- [ ] Qualidade de segurado na data do óbito ou, se perdeu, se cumpriu carência antes
-- [ ] DER: 30 dias após óbito retroage à data do óbito (CF/88, art. 74)
-
 ## Vídeos relacionados
 
 Para aprofundar no canal @brunopellizzetti:
 
 <ul class="yt-videos">
-  <VideoLink slug="YT-2021-04-27-Passo_a_passo_do_requerimento_de_pensao_por_morte" title="Passo a passo do requerimento de pensão por morte" descricao="como protocolar administrativamente" />
-  <VideoLink slug="YT-2021-04-16-15_dicas_sobre_pensao_por_morte" title="15 dicas sobre pensão por morte" descricao="armadilhas e orientações práticas" />
-  <VideoLink slug="YT-2024-10-03-Pensao_por_Morte_-_Como_garantir_100%_do_Beneficio_Conceitos_que_podem_mudar_seu_beneficio" title="Pensão por morte — como garantir 100% do benefício" descricao="cotas, composição familiar, estratégia" />
-  <VideoLink slug="YT-2021-03-25-E_possivel_acumular_a_pensao_por_morte_com_minha_aposentadoria" title="É possível acumular pensão por morte com aposentadoria?" descricao="regras de acumulação pós-EC 103" />
-  <VideoLink slug="YT-2021-09-02-Pensao_por_morte_e_irretroatividade" title="Pensão por morte e irretroatividade" descricao="aplicação da lei vigente na data do óbito" />
-  <VideoLink slug="YT-2021-11-30-A_inconstitucionalidade_da_NOVA_Pensao_por_Morte" title="A inconstitucionalidade da NOVA pensão por morte" descricao="análise crítica da EC 103" />
-  <VideoLink slug="YT-2021-06-15-Pensao_por_morte_para_o_homem_a_partir_da_Constituicao_Federal_de_1988_-_VITORIA_E_IGUALDADE" title="Pensão por morte para o homem a partir da CF/88" descricao="equiparação de gênero" />
-  <VideoLink slug="YT-2023-06-27-Pensao_por_morte_para_filho_nao_nascido_-_O_que_voce_precisa_saber" title="Pensão por morte para filho não nascido — o que você precisa saber" descricao="nascituro e direito à pensão" />
-  <VideoLink slug="YT-2024-10-17-ALERTA_Cuidado_ao_requerer_sua_pensao_por_morte_-_Extincao_nao_reversivel_das_cotas_apos_a_idade" title="ALERTA — Cuidado ao requerer pensão por morte: extinção não reversível das cotas" descricao="efeito prático da EC 103" />
-  <VideoLink slug="YT-2024-10-24-Pensao_por_Morte_e_Novo_casamento_no_INSS_e_no_RPPS_PR_-_Confira_suas_regras_para_nao_ter_surpresa" title="Pensão por morte e novo casamento no INSS e RPPS-PR" descricao="casamento posterior do pensionista" />
   <VideoLink slug="YT-2021-07-20-Os_direitos_previdenciarios_do_Autista_TEA" title="Os direitos previdenciários do autista (TEA)" descricao="filho com deficiência mental como dependente" />
-  <VideoLink slug="YT-2025-01-16-Conflitos_de_Deficiencias_-_qual_e_o_criterio_definitivo_para_a_Lei_e_para_a_Justica" title="Conflitos de deficiências — qual é o critério definitivo" descricao="critérios do art. 16 pós-LBI" />
 </ul>
-
----
-
-**Próxima aula:** [2.6 — Período de graça](/lessons/modulo-02-segurados-dependentes/2.6-periodo-de-graca)
